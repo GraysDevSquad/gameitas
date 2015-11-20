@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7593DAB61BFED72900CFA005 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7593DAB51BFED72900CFA005 /* AppDelegate.swift */; };
+		7593DAB81BFED72900CFA005 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7593DAB71BFED72900CFA005 /* ViewController.swift */; };
+		7593DABB1BFED72900CFA005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7593DAB91BFED72900CFA005 /* Main.storyboard */; };
+		7593DABD1BFED72900CFA005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7593DABC1BFED72900CFA005 /* Assets.xcassets */; };
+		7593DAC01BFED72900CFA005 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7593DABE1BFED72900CFA005 /* LaunchScreen.storyboard */; };
+		7593DACB1BFED72900CFA005 /* GameitasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7593DACA1BFED72900CFA005 /* GameitasTests.swift */; };
+		7593DAD61BFED72900CFA005 /* GameitasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7593DAD51BFED72900CFA005 /* GameitasUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7593DAC71BFED72900CFA005 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7593DAAA1BFED72800CFA005 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7593DAB11BFED72800CFA005;
+			remoteInfo = Gameitas;
+		};
+		7593DAD21BFED72900CFA005 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7593DAAA1BFED72800CFA005 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7593DAB11BFED72800CFA005;
+			remoteInfo = Gameitas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7593DAB21BFED72800CFA005 /* Gameitas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gameitas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7593DAB51BFED72900CFA005 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7593DAB71BFED72900CFA005 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7593DABA1BFED72900CFA005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7593DABC1BFED72900CFA005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7593DABF1BFED72900CFA005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7593DAC11BFED72900CFA005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7593DAC61BFED72900CFA005 /* GameitasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameitasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7593DACA1BFED72900CFA005 /* GameitasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameitasTests.swift; sourceTree = "<group>"; };
+		7593DACC1BFED72900CFA005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7593DAD11BFED72900CFA005 /* GameitasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameitasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7593DAD51BFED72900CFA005 /* GameitasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameitasUITests.swift; sourceTree = "<group>"; };
+		7593DAD71BFED72900CFA005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7593DAAF1BFED72800CFA005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7593DAC31BFED72900CFA005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7593DACE1BFED72900CFA005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7593DAA91BFED72800CFA005 = {
+			isa = PBXGroup;
+			children = (
+				7593DAB41BFED72900CFA005 /* Gameitas */,
+				7593DAC91BFED72900CFA005 /* GameitasTests */,
+				7593DAD41BFED72900CFA005 /* GameitasUITests */,
+				7593DAB31BFED72800CFA005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7593DAB31BFED72800CFA005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7593DAB21BFED72800CFA005 /* Gameitas.app */,
+				7593DAC61BFED72900CFA005 /* GameitasTests.xctest */,
+				7593DAD11BFED72900CFA005 /* GameitasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7593DAB41BFED72900CFA005 /* Gameitas */ = {
+			isa = PBXGroup;
+			children = (
+				7593DAB51BFED72900CFA005 /* AppDelegate.swift */,
+				7593DAB71BFED72900CFA005 /* ViewController.swift */,
+				7593DAB91BFED72900CFA005 /* Main.storyboard */,
+				7593DABC1BFED72900CFA005 /* Assets.xcassets */,
+				7593DABE1BFED72900CFA005 /* LaunchScreen.storyboard */,
+				7593DAC11BFED72900CFA005 /* Info.plist */,
+			);
+			path = Gameitas;
+			sourceTree = "<group>";
+		};
+		7593DAC91BFED72900CFA005 /* GameitasTests */ = {
+			isa = PBXGroup;
+			children = (
+				7593DACA1BFED72900CFA005 /* GameitasTests.swift */,
+				7593DACC1BFED72900CFA005 /* Info.plist */,
+			);
+			path = GameitasTests;
+			sourceTree = "<group>";
+		};
+		7593DAD41BFED72900CFA005 /* GameitasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7593DAD51BFED72900CFA005 /* GameitasUITests.swift */,
+				7593DAD71BFED72900CFA005 /* Info.plist */,
+			);
+			path = GameitasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7593DAB11BFED72800CFA005 /* Gameitas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7593DADA1BFED72900CFA005 /* Build configuration list for PBXNativeTarget "Gameitas" */;
+			buildPhases = (
+				7593DAAE1BFED72800CFA005 /* Sources */,
+				7593DAAF1BFED72800CFA005 /* Frameworks */,
+				7593DAB01BFED72800CFA005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gameitas;
+			productName = Gameitas;
+			productReference = 7593DAB21BFED72800CFA005 /* Gameitas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7593DAC51BFED72900CFA005 /* GameitasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7593DADD1BFED72900CFA005 /* Build configuration list for PBXNativeTarget "GameitasTests" */;
+			buildPhases = (
+				7593DAC21BFED72900CFA005 /* Sources */,
+				7593DAC31BFED72900CFA005 /* Frameworks */,
+				7593DAC41BFED72900CFA005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7593DAC81BFED72900CFA005 /* PBXTargetDependency */,
+			);
+			name = GameitasTests;
+			productName = GameitasTests;
+			productReference = 7593DAC61BFED72900CFA005 /* GameitasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7593DAD01BFED72900CFA005 /* GameitasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7593DAE01BFED72900CFA005 /* Build configuration list for PBXNativeTarget "GameitasUITests" */;
+			buildPhases = (
+				7593DACD1BFED72900CFA005 /* Sources */,
+				7593DACE1BFED72900CFA005 /* Frameworks */,
+				7593DACF1BFED72900CFA005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7593DAD31BFED72900CFA005 /* PBXTargetDependency */,
+			);
+			name = GameitasUITests;
+			productName = GameitasUITests;
+			productReference = 7593DAD11BFED72900CFA005 /* GameitasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7593DAAA1BFED72800CFA005 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = GraysDevSquad;
+				TargetAttributes = {
+					7593DAB11BFED72800CFA005 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 8JHX86T98J;
+					};
+					7593DAC51BFED72900CFA005 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 8JHX86T98J;
+						TestTargetID = 7593DAB11BFED72800CFA005;
+					};
+					7593DAD01BFED72900CFA005 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 8JHX86T98J;
+						TestTargetID = 7593DAB11BFED72800CFA005;
+					};
+				};
+			};
+			buildConfigurationList = 7593DAAD1BFED72800CFA005 /* Build configuration list for PBXProject "Gameitas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7593DAA91BFED72800CFA005;
+			productRefGroup = 7593DAB31BFED72800CFA005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7593DAB11BFED72800CFA005 /* Gameitas */,
+				7593DAC51BFED72900CFA005 /* GameitasTests */,
+				7593DAD01BFED72900CFA005 /* GameitasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7593DAB01BFED72800CFA005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7593DAC01BFED72900CFA005 /* LaunchScreen.storyboard in Resources */,
+				7593DABD1BFED72900CFA005 /* Assets.xcassets in Resources */,
+				7593DABB1BFED72900CFA005 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7593DAC41BFED72900CFA005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7593DACF1BFED72900CFA005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7593DAAE1BFED72800CFA005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7593DAB81BFED72900CFA005 /* ViewController.swift in Sources */,
+				7593DAB61BFED72900CFA005 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7593DAC21BFED72900CFA005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7593DACB1BFED72900CFA005 /* GameitasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7593DACD1BFED72900CFA005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7593DAD61BFED72900CFA005 /* GameitasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7593DAC81BFED72900CFA005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7593DAB11BFED72800CFA005 /* Gameitas */;
+			targetProxy = 7593DAC71BFED72900CFA005 /* PBXContainerItemProxy */;
+		};
+		7593DAD31BFED72900CFA005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7593DAB11BFED72800CFA005 /* Gameitas */;
+			targetProxy = 7593DAD21BFED72900CFA005 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7593DAB91BFED72900CFA005 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7593DABA1BFED72900CFA005 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7593DABE1BFED72900CFA005 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7593DABF1BFED72900CFA005 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7593DAD81BFED72900CFA005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7593DAD91BFED72900CFA005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7593DADB1BFED72900CFA005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gameitas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GraysDevSquad.Gameitas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7593DADC1BFED72900CFA005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gameitas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GraysDevSquad.Gameitas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7593DADE1BFED72900CFA005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GameitasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GraysDevSquad.GameitasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gameitas.app/Gameitas";
+			};
+			name = Debug;
+		};
+		7593DADF1BFED72900CFA005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GameitasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GraysDevSquad.GameitasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gameitas.app/Gameitas";
+			};
+			name = Release;
+		};
+		7593DAE11BFED72900CFA005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GameitasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GraysDevSquad.GameitasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gameitas;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7593DAE21BFED72900CFA005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GameitasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GraysDevSquad.GameitasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Gameitas;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7593DAAD1BFED72800CFA005 /* Build configuration list for PBXProject "Gameitas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7593DAD81BFED72900CFA005 /* Debug */,
+				7593DAD91BFED72900CFA005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7593DADA1BFED72900CFA005 /* Build configuration list for PBXNativeTarget "Gameitas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7593DADB1BFED72900CFA005 /* Debug */,
+				7593DADC1BFED72900CFA005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7593DADD1BFED72900CFA005 /* Build configuration list for PBXNativeTarget "GameitasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7593DADE1BFED72900CFA005 /* Debug */,
+				7593DADF1BFED72900CFA005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7593DAE01BFED72900CFA005 /* Build configuration list for PBXNativeTarget "GameitasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7593DAE11BFED72900CFA005 /* Debug */,
+				7593DAE21BFED72900CFA005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7593DAAA1BFED72800CFA005 /* Project object */;
+}
